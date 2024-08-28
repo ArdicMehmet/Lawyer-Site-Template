@@ -281,7 +281,7 @@ a:focus {
     position: relative;
     width: 100%;
     height: calc(100vh - 170px);
-    margin: 0 auto;
+    margin: 0 auto !important;
     text-align: center;
     overflow: hidden;
 }
