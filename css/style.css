@@ -99,7 +99,7 @@ a:focus {
 }
 
 .top-bar .top-bar-right {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: flex-end;
 }
@@ -158,6 +158,9 @@ a:focus {
 }
 
 @media (min-width: 992px) {
+    .top-bar .top-bar-right{
+        display: flex;
+    }
     .top-bar {
         padding: 0 60px;
     }
