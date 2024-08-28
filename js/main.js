@@ -15,18 +15,6 @@
     });
     
     
-    // Sticky Navbar
-    // $(window).scroll(function () {
-    //     if ($(this).scrollTop() > 90) {
-    //         $('.nav-bar').addClass('nav-sticky');
-    //         $('.carousel, .page-header').css("margin-top", "71px");
-    //     } else {
-    //         $('.nav-bar').removeClass('nav-sticky');
-    //         $('.carousel, .page-header').css("margin-top", "0");
-    //     }
-    // });
-    
-    
     // Dropdown on mouse hover
     $(document).ready(function () {
         function toggleNavbarMethod() {
