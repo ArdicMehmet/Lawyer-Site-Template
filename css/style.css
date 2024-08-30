@@ -254,6 +254,12 @@ a:focus {
         font-size: 15px;
         text-transform: uppercase;
     }
+    .nav-bar .mobile-link{
+        display: none;
+    }
+    .nav-bar .desktop-link{
+        display: inline-block;
+    }
 }
 
 @media (max-width: 991.98px) {   
@@ -272,6 +278,12 @@ a:focus {
     }
     
     .nav-bar .btn {
+        display: none;
+    }
+    .nav-bar .mobile-link{
+        display: inline-block;
+    }
+    .nav-bar .desktop-link{
         display: none;
     }
 }
