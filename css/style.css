@@ -614,7 +614,7 @@ a:focus {
     font-size: 16px;
 }
 
-.about .about-text a.btn {
+.about .about-text a.btn, .service a.btn{
     position: relative;
     margin-top: 15px;
     padding: 15px 35px;
@@ -628,7 +628,6 @@ a:focus {
     background: #121518;
     transition: .3s;
 }
-
 .about .about-text a.btn:hover {
     color: #121518;
     background: #aa9166;
@@ -1475,6 +1474,7 @@ a:focus {
 
 .contact .contact-item i {
     display: inline-block;
+    min-width: 60px;
     width: 60px;
     height: 60px;
     display: flex;
